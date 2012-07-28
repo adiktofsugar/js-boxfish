@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+	
+<head>
+	<title>Boxfish widget</title>
+	
+	<script data-main="js/default.js" src="js/require.js"></script>
+	<link rel="stylesheet" href="css/boxfish/style.css"/>
+</head>
+	
+<body>
+
+<section id="BoxWidget">
+	<h4 id="BWTitle">Boxfish Live TV Mentions</h4>
+	<ul id="BWFeed"></ul>
+</section>
+
+<script>
+require(['boxfish/main'], function (Widget) {
+	new Widget({
+		el : $('#BWFeed'),
+	});
+});
+</script>
+
+</body>
+</html>
