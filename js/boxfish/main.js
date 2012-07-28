@@ -2,7 +2,6 @@ define(
     ['jquery', 'backbone', 'underscore'],
     function ($, Backbone, _) {
 
-
         var Item = Backbone.Model.extend({
         });
         var ItemView = Backbone.View.extend({

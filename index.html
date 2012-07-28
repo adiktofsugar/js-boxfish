@@ -16,9 +16,11 @@
 </section>
 
 <script>
-require(['boxfish/main'], function (Widget) {
-	new Widget({
-		el : $('#BWFeed'),
+require(['jquery', 'boxfish/main'], function ($, Widget) {
+	$(document).ready(function () {
+		new Widget({
+			el : $('#BWFeed'),
+		});
 	});
 });
 </script>
